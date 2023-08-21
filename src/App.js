@@ -8,6 +8,7 @@ import Login from "./componentes/Login";
 function App() {
   return (
     <>
+    <h1> react App</h1>
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />

@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <h1>React App</h1>
-        <BrowserRouter>
+        <BrowserRouter basename="/routing_js">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/producto/:id" element={<MostrarProducto />} />

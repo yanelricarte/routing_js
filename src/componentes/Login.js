@@ -1,8 +1,11 @@
 import React from "react";
+import NavBar from "./navbar/NavBar";
 
 function Login() {
     return(
         <>
+            <NavBar />
+
         <h1> Login </h1>
         </>
             )
